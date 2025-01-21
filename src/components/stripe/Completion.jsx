@@ -19,7 +19,11 @@ function Completion(props) {
     }, [stripePromise]);
   return (
     <div>
-      
+      <form action="">
+        <label htmlFor="">Add Amount</label>
+        <input type="number" />
+        <button type="submit">Pay Amount</button>
+      </form>
     </div>
   )
 }
